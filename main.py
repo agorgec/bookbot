@@ -12,6 +12,8 @@ def main():
             continue
         print(f"{item['char']} character was found {item['num']} times")
 
+    end()
+
 
 def header():
     print("--- Begin report of books/frankenstein.txt ---")
